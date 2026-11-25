@@ -1,0 +1,52 @@
+plus_minus:
+#problem:i an not geting 6 decimal at some point when all decimals are zero
+#idk:how to take all elemnt at an time without using eval
+logic:comparing negative,positive and zero and taking count respectively
+
+
+
+mini_max_sum:
+logic:
+i creat a list of first 4 smallest elements by using min function and after appending each element
+to min_list ,i removed that elemnt from input list
+therby create an minlist and found sum
+for finding max_list of 4 element i create y list basically which is minlist to which pending 1 element
+of input list (that one elemnt which remains after removing elemet initially for min_list )is appended
+there by doing same logic for creating
+
+
+
+Diagonal_difference:
+logic:diagonal1 can be taken by m[i][i](in loop)
+  diagonal2 can be taken by m[i][(row-1)-1]
+we use row-1 thereby we can avoid index out of range error
+note : my code is useful in square matrix  where row=column
+
+
+
+Caesar cipher:
+use ord() and chr() also  use .isalpha() to ensure we are not change special character
+
+
+
+recrusive digit sum:
+take sum of digits and check whether it is single digit sum or not , if not use concept of recrussion still single digit number comes
+
+
+lonely integer:
+check is there any number having count 1 for that use count function 
+
+
+zig zag pattern:
+st<= n-1: this help as to avoid out of range error
+logic i followed: considered a=[2,3,4,1,5] and made arrangement accordingly so i get outcome as [1,2,5,4,3] which lead to an code accurate in all case i brough change in 3 line of  code  from given code
+
+
+Time Conversion:
+logic: check whether it is AM or PM  if AM check is it 12 am then bring  changes accordingle if PM add 12 to hour
+ 
+
+counting sort 1:
+logic: we take input of numbers where each number is less than the total number of values we inputed
+so now we take i from range(n) and create an count checking how many number of integers we inputed having same value of i
+
